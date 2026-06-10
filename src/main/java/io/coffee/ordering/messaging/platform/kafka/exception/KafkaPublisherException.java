@@ -3,7 +3,7 @@ package io.coffee.ordering.messaging.platform.kafka.exception;
 import lombok.Getter;
 
 @Getter
-public class KafkaPublisherException extends IllegalArgumentException {
+public class KafkaPublisherException extends RuntimeException {
     private final ErrorCode errorCode;
 
     public KafkaPublisherException(ErrorCode errorCode) {
