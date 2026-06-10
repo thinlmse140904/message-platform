@@ -1,2 +1,2 @@
 # message-platform
-Build base configs for spring kafka
+Setup common configuration dependency for spring kafka
